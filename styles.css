@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+#firstheader {
+     /* Sizing */
+     width: 100vw;
+     height: 100vh;
+     /* Flexbox stuff */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* Text styles */
+     text-align: center;
+     color: white;
+     /* Background styles */
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("./image/Tosin Abuad 20180711_000820.jpg");
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+}
+#wrapper {
+    background-color: snow;
+    height: 250vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+#available {
+    display: block;
+    width: 100vw;
+    text-align: center;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times,;
+}
+#talk {
+    margin: 0;
+    background-color: white;
+    height: 90vh;
+}
+#head {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: peru;
+}
+#innerhead {
+    text-align: center;
+    font-size: 50px;
+}
+#about {
+    text-align: center;
+    font-size: 35px;
+    color: dimgrey;
+}
+#main {
+    text-align: center;
+    padding-top: 1px;
+    font-size: 25px;
+}
+#innermain{
+    text-align: center;
+    padding: 0px;
+    font-size: 30px;
+}
+#outermain {
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+}
+#first-car {
+    display: inline;
+}
+#second-car {
+    display: inline;
+}
+#third-car {
+    display: block;
+    text-align: center;
+}
+#fourth-car {
+    display: inline;
+}
+#fifth-car {
+    display: inline;
+}
+#bottom {
+    background-color: slategray;
+}
+#linkone {
+    color: white;
+}
+#linktwo {
+    color: white;
+}
+.btn:hover{
+    color:brown;
+    color : #d4d0cb;
+    background-color:#474137;
+    border-color: #474137;
+}
+
+.overlay_parent{
+    position: relative;
+}
+.overlay{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 66%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    padding: 25% 0 0 0;
+}
+.overlay_parent:hover .overlay{
+    display: block
+}
+a{
+    text-decoration: none;
+    color:whitesmoke;
+}
