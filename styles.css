@@ -28,7 +28,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     margin: 0;
-    padding: 10px;
+    padding: 0px;
 }
 #available {
     display: block;
@@ -40,8 +40,8 @@ body {
 #talk {
     margin: 0;
     background-color: white;
-    height: 150vh;
-    padding: 50px;
+    height: 90vh;
+    padding: 10px;
 }
 #head {
     text-align: center;
@@ -73,20 +73,24 @@ body {
     font-size: 25px;
 }
 #first-car {
-    display: inline;
+    display: block;
+    text-align: center;
 }
 #second-car {
-    display: inline;
+    display: block;
+    text-align: center;
 }
 #third-car {
     display: block;
     text-align: center;
 }
 #fourth-car {
-    display: inline;
+    display: block;
+    text-align: center;
 }
 #fifth-car {
-    display: inline;
+    display: block;
+    text-align: center;
 }
 #bottom {
     background-color: slategray;
