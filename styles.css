@@ -21,7 +21,7 @@ body {
 }
 #wrapper {        
     background-color: snow;
-    height: 400vh;
+    height: 380vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -115,8 +115,8 @@ body {
 .overlay{
     display: none;
     position: absolute;
-    width: 100%;
-    height: 66%;
+    width: 44vw;
+    height: 45.5vh;
     background: rgba(0, 0, 0, 0.5);
     color: white;
     cursor: pointer;
